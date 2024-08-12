@@ -35,7 +35,7 @@ def load_estimator():
     return estimator
 
 
-def test():
+def _testpipe():
 
     data, target = load_data()
     estimator = load_estimator()
@@ -48,4 +48,4 @@ def test():
     assert accuracy > 0.9545
 
 
-test()
+_testpipe()
